@@ -5,6 +5,7 @@
     ayuda:
     https://stackoverflow.com/questions/18178867/how-can-i-use-googles-roboto-font-on-a-website
     https://stackoverflow.com/questions/11419998/text-decoration-none-not-working
+    https://stackoverflow.com/questions/22674633/text-that-shows-an-underline-on-hover
 */
 
 * {
@@ -16,7 +17,11 @@
 }
 
 a:link {
-    text-decoration: none !important;
+    text-decoration: none; /*!important*/
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Estilos de los pie de página: */
